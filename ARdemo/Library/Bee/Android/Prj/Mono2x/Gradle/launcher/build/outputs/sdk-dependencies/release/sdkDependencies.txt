@@ -1,0 +1,146 @@
+# List of SDK dependencies of this app, this information is also included in an encrypted form in the APK.
+# For more information visit: https://d.android.com/r/tools/dependency-metadata
+
+library {
+  maven_library {
+    artifactId: "nrunityandroidpermission"
+  }
+  digests {
+    sha256: "\210\214\261##\b\327\301\037\037Q\035wZ\016\225y\325\210\322R;\005\005j\006\006nV\360\004U"
+  }
+}
+library {
+  maven_library {
+    artifactId: "permission.RECORD_AUDIO"
+  }
+  digests {
+    sha256: "L\336\264\305\241\016\016\nj\000:(\235\237\302\327d\372\037\022,\333~\207\316;\315\027XX\370>"
+  }
+}
+library {
+  maven_library {
+    artifactId: "nr_api"
+  }
+  digests {
+    sha256: "a;m\nIm\221-\333c\313\212\311f*G;\023\364\023\017\n\374\265\302\244\025\325\213\263\030\207"
+  }
+}
+library {
+  maven_library {
+    artifactId: "nrvirtualcontroller"
+  }
+  digests {
+    sha256: "l\225\271\213\242H\324\252w\227\207{\344@-\316\364\037\245N\372H\024\303?\244\356F/\230h\240"
+  }
+}
+library {
+  maven_library {
+    artifactId: "arenginesdk-3.7.0.3"
+  }
+  digests {
+    sha256: "_\024?\305E)\302.i\246!\037ra\200\f\234x\301\216q{\254S\202\031?:93m\341"
+  }
+}
+library {
+  maven_library {
+    artifactId: "permission.CAMERA"
+  }
+  digests {
+    sha256: "Y\276\020\303\336\322\221\302\3656\264z\364\310\006\324~\f\312\363\343b\022\275O(tr\355\315 \374"
+  }
+}
+library {
+  maven_library {
+    artifactId: "com.google.ar.core-1.23.0"
+  }
+  digests {
+    sha256: "\356\274\312NH\335\311\305\335\235\005\332\201V\332H\360\276F\257r,\f\221\022\241\273\372A_\303\275"
+  }
+}
+library {
+  maven_library {
+    artifactId: "com.google.ar.core-optional"
+  }
+  digests {
+    sha256: "\270\307\375\215\023\336\003\226\233\225nD.T\215\036{Jk\223q\271#-\246!\304`\324\275\020\035"
+  }
+}
+library {
+  maven_library {
+    artifactId: "AREngineInterop"
+  }
+  digests {
+    sha256: "\a\004\'\343\177\276\031\337K\204\024*s\312\371\232\206g\373?\303\033\b\t\224\326\277\314\215IOE"
+  }
+}
+library {
+  maven_library {
+    artifactId: "permission.INTERNET"
+  }
+  digests {
+    sha256: "\031\341\237\301\025\320\335\025DM\2201\001\246,\ar3\377\rX\366\230M\331\341\315\363\250 %\277"
+  }
+}
+library {
+  maven_library {
+    artifactId: "EasyAR"
+  }
+  digests {
+    sha256: "\352\200\361\375n\030D\271`\a\207\253\365R1,\255\002\022\022\220\321\023\332\346\032%\235x}+\314"
+  }
+}
+library {
+  maven_library {
+    artifactId: "unityandroidpermissions"
+  }
+  digests {
+    sha256: "\304\275\200/\267\017\253\2569\233,4\201\275\362\370\021i,\2045\246\3123t\313N\032\270\017h\272"
+  }
+}
+library {
+  digests {
+    sha256: "l\253\222\262\'\350\313\314\372\372B\316!f \242\265b\017\r(i\254\303\204A\322C\316\326\"|"
+  }
+}
+library_dependencies {
+}
+library_dependencies {
+  library_index: 1
+}
+library_dependencies {
+  library_index: 2
+}
+library_dependencies {
+  library_index: 3
+}
+library_dependencies {
+  library_index: 4
+}
+library_dependencies {
+  library_index: 5
+}
+library_dependencies {
+  library_index: 6
+}
+library_dependencies {
+  library_index: 7
+}
+library_dependencies {
+  library_index: 8
+}
+library_dependencies {
+  library_index: 9
+}
+library_dependencies {
+  library_index: 10
+}
+library_dependencies {
+  library_index: 11
+}
+library_dependencies {
+  library_index: 12
+}
+module_dependencies {
+  module_name: "base"
+  dependency_index: 12
+}

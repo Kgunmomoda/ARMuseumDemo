@@ -1,0 +1,17 @@
+{
+	"name": "EasyAR.Sense.Ext.Nreal.Sample.ImageTracking_InWorld",
+	"references": [
+		"NRSDK",
+		"EasyAR.Sense",
+		"EasyAR.Sense.Ext.Nreal"
+	],
+	"includePlatforms": [],
+	"excludePlatforms": [],
+	"allowUnsafeCode": false,
+	"overrideReferences": false,
+	"precompiledReferences": [],
+	"autoReferenced": true,
+	"defineConstraints": [],
+	"versionDefines": [],
+	"noEngineReferences": false
+}

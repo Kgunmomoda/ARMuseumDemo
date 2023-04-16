@@ -1,0 +1,26 @@
+{
+	"name": "EasyAR.Sense.Ext.Nreal.Editor",
+	"references": [
+		"EasyAR.Sense",
+		"EasyAR.Sense.Editor",
+		"EasyAR.Sense.Ext.Nreal",
+		"NRSDK"
+	],
+	"includePlatforms": [
+		"Editor"
+	],
+	"excludePlatforms": [],
+	"allowUnsafeCode": false,
+	"overrideReferences": false,
+	"precompiledReferences": [],
+	"autoReferenced": true,
+	"defineConstraints": [],
+	"versionDefines": [
+		{
+			"name": "com.easyar.mega",
+			"expression": "",
+			"define": "EASYAR_ENABLE_MEGA"
+		}
+	],
+	"noEngineReferences": false
+}

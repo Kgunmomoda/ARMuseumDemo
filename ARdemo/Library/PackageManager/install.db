@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "packages": {
+    "com.easyar.sense": {
+      "tarball": {
+        "hash": "acfda8e1d4fe",
+        "mtime": 1680511444000,
+        "size": 108624548,
+        "localPath": "D:\\Download\\EasyARSenseUnityPlugin_4.6.2+3022.b15d4240\\com.easyar.sense-4.6.2+3022.b15d4240.tgz"
+      }
+    },
+    "com.easyar.sense.ext.nreal": {
+      "tarball": {
+        "hash": "fe954dad1c58",
+        "mtime": 1680511436000,
+        "size": 47978,
+        "localPath": "D:\\Download\\EasyARSenseUnityPlugin_4.6.2+3022.b15d4240\\com.easyar.sense.ext.nreal-4.6.2+3022.b15d4240.tgz"
+      }
+    }
+  }
+}

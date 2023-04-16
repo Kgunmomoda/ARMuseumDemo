@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EasyAR.Sense.Ext.Nreal</name>
+    </assembly>
+    <members>
+        <member name="T:easyar.NrealFrameSource">
+            <summary>
+            <para xml:lang="en">A custom frame source which connects Nreal output to EasyAR input in the scene, providing Nreal support using custom camera feature of EasyAR Sense.</para>
+            <para xml:lang="en">This frame source is one type of motion tracking device, and will output motion data in a <see cref="T:easyar.ARSession"/>.</para>
+            <para xml:lang="en">``Nreal SDK For Unity`` is required to use this frame source, you need to setup Nreal SDK For Unity according to official documents.</para>
+            <para xml:lang="en"><see cref="P:easyar.NrealFrameSource.CameraRig"/> and <see cref="P:easyar.NrealFrameSource.WorldRoot"/> are required for availability check, they will be automatically picked from scene objects if not setup. <see cref="P:easyar.FrameSource.Camera"/> will be created at runtime and attached to <see cref="P:easyar.NrealFrameSource.CameraRig"/>.</para>
+            <para xml:lang="zh">在场景中将Nreal的输出连接到EasyAR输入的自定义frame source。通过EasyAR Sense的自定义相机功能提供Nreal支持。</para>
+            <para xml:lang="zh">这个frame source是一种运动跟踪设备，在<see cref="T:easyar.ARSession"/>中会输出运动数据。</para>
+            <para xml:lang="zh">为了使用这个frame source， ``Nreal SDK For Unity`` 是必需的。你需要根据官方文档配置Nreal SDK For Unity。</para>
+            <para xml:lang="zh">在可用性检查中，<see cref="P:easyar.NrealFrameSource.CameraRig"/> 和<see cref="P:easyar.NrealFrameSource.WorldRoot"/> 是需要的，如果没有事先设置，会自动从场景物体中选择。<see cref="P:easyar.FrameSource.Camera"/>会在运行时创建并被附加在<see cref="P:easyar.NrealFrameSource.CameraRig"/>上</para>
+            </summary>
+        </member>
+        <member name="F:easyar.NrealFrameSource.CameraNearClipPlane">
+            <summary>
+            <para xml:lang="en">The distance of the near clipping plane from the the RGB Camera.</para>
+            <para xml:lang="zh">RGB相机的近裁平面距离。</para>
+            </summary>
+        </member>
+        <member name="F:easyar.NrealFrameSource.CameraFarClipPlane">
+            <summary>
+            <para xml:lang="en">The distance of the far clipping plane from the the RGB Camera.</para>
+            <para xml:lang="zh">RGB相机的远裁平面距离。</para>
+            </summary>
+        </member>
+        <member name="F:easyar.NrealFrameSource.EnableColorInput">
+            <summary>
+            <para xml:lang="en">If color image is used as frame input. Color image is usefull when recording a colored eif file, but not necessary for all EasyAR algorithms.</para>
+            <para xml:lang="zh">是否使用彩色图像作为frame输入。彩色图像在需要录制彩色eif文件的时候可以使用。所有EasyAR算法都不需要使用彩色图像。</para>
+            </summary>
+        </member>
+        <member name="P:easyar.NrealFrameSource.CameraRig">
+            <summary>
+            <para xml:lang="en">Nreal CameraRig.</para>
+            <para xml:lang="zh">Nreal CameraRig。</para>
+            </summary>
+        </member>
+        <member name="P:easyar.NrealFrameSource.WorldRoot">
+            <summary>
+            <para xml:lang="en">The object Camera move against, will be automatically get from the scene or generate if not set.</para>
+            <para xml:lang="zh">相机运动的相对物体，如果没设置，将会自动从场景中获取或生成。</para>
+            </summary>
+        </member>
+        <member name="P:easyar.NrealFrameSource.ReceivedFrameCount">
+            <summary>
+            <para xml:lang="en">Received frame count from Nreal. Usually used for debug. There are usually hardware issues if this value stop to increase, and a device re-plug may help.</para>
+            <para xml:lang="zh">从Nreal获取到的帧计数。通常在debug中使用。如果这个数值停止增长，通常是硬件问题，重新插拔设备可能能解决。</para>
+            </summary>
+        </member>
+    </members>
+</doc>
