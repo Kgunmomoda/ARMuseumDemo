@@ -1,10 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-9:12
-INJECTED from D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-9:12
-INJECTED from D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-9:12
-INJECTED from D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-9:12
-MERGED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:2:1-85:12
+ADDED from D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-9:12
+INJECTED from D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-9:12
+INJECTED from D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-9:12
+INJECTED from D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-9:12
+MERGED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:2:1-85:12
 MERGED from [:nrunityandroidpermission:] C:\Users\10718\.gradle\caches\transforms-2\files-2.1\b0a94ddee91b40dbe508e517c9f9563d\nrunityandroidpermission\AndroidManifest.xml:2:1-22:12
 MERGED from [:permission.RECORD_AUDIO:] C:\Users\10718\.gradle\caches\transforms-2\files-2.1\10d120d9135eb9a9de9f6dec82e45707\permission.RECORD_AUDIO\AndroidManifest.xml:2:1-4:12
 MERGED from [:nr_api:] C:\Users\10718\.gradle\caches\transforms-2\files-2.1\7a03d18d492302f080765b736ce96c0b\nr_api\AndroidManifest.xml:2:1-19:12
@@ -17,45 +17,45 @@ MERGED from [:AREngineInterop:] C:\Users\10718\.gradle\caches\transforms-2\files
 MERGED from [:permission.INTERNET:] C:\Users\10718\.gradle\caches\transforms-2\files-2.1\c389aeb391ada4d5f126895b97ce40ff\permission.INTERNET\AndroidManifest.xml:2:1-4:12
 MERGED from [:EasyAR:] C:\Users\10718\.gradle\caches\transforms-2\files-2.1\6b45a2ff0e32aa01bf444df4d40e2563\EasyAR\AndroidManifest.xml:1:1-2:12
 MERGED from [:unityandroidpermissions:] C:\Users\10718\.gradle\caches\transforms-2\files-2.1\99cd4938695955e76a15f63d7f33b533\unityandroidpermissions\AndroidManifest.xml:6:1-15:12
-INJECTED from D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-9:12
-INJECTED from D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-9:12
-INJECTED from D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-9:12
+INJECTED from D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-9:12
+INJECTED from D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-9:12
+INJECTED from D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-9:12
 	package
-		ADDED from D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:70-105
-		INJECTED from D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
-		INJECTED from D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+		ADDED from D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:70-105
+		INJECTED from D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+		INJECTED from D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
-		ADDED from D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-9:12
-		INJECTED from D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+		INJECTED from D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+		ADDED from D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-9:12
+		INJECTED from D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:106-152
+		ADDED from D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:106-152
 	android:versionCode
-		INJECTED from D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
-		ADDED from D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-9:12
-		INJECTED from D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+		INJECTED from D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+		ADDED from D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-9:12
+		INJECTED from D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:11-69
+		ADDED from D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:11-69
 	android:installLocation
-		ADDED from D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:153-193
+		ADDED from D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:153-193
 supports-screens
-ADDED from D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:3-163
-MERGED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:14:5-19:40
-MERGED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:14:5-19:40
+ADDED from D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:3-163
+MERGED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:14:5-19:40
+MERGED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:14:5-19:40
 	android:largeScreens
-		ADDED from D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:78-105
+		ADDED from D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:78-105
 	android:smallScreens
-		ADDED from D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:21-48
+		ADDED from D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:21-48
 	android:normalScreens
-		ADDED from D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:49-77
+		ADDED from D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:49-77
 	android:xlargeScreens
-		ADDED from D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:106-134
+		ADDED from D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:106-134
 	android:anyDensity
-		ADDED from D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:135-160
+		ADDED from D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:135-160
 application
-ADDED from D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:3-6:17
-MERGED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:39:5-83:19
-MERGED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:39:5-83:19
+ADDED from D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:3-6:17
+MERGED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:39:5-83:19
+MERGED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:39:5-83:19
 MERGED from [:nrunityandroidpermission:] C:\Users\10718\.gradle\caches\transforms-2\files-2.1\b0a94ddee91b40dbe508e517c9f9563d\nrunityandroidpermission\AndroidManifest.xml:14:5-20:19
 MERGED from [:nrunityandroidpermission:] C:\Users\10718\.gradle\caches\transforms-2\files-2.1\b0a94ddee91b40dbe508e517c9f9563d\nrunityandroidpermission\AndroidManifest.xml:14:5-20:19
 MERGED from [:arenginesdk-3.7.0.3:] C:\Users\10718\.gradle\caches\transforms-2\files-2.1\d1b4f8c6409e77998f5f5d43f4297030\arenginesdk-3.7.0.3\AndroidManifest.xml:18:5-22:19
@@ -65,41 +65,41 @@ MERGED from [:com.google.ar.core-1.23.0:] C:\Users\10718\.gradle\caches\transfor
 MERGED from [:com.google.ar.core-optional:] C:\Users\10718\.gradle\caches\transforms-2\files-2.1\2186dd9ed0af5a0a76a76cfeb6a5901f\com.google.ar.core-optional\AndroidManifest.xml:3:3-5:17
 MERGED from [:com.google.ar.core-optional:] C:\Users\10718\.gradle\caches\transforms-2\files-2.1\2186dd9ed0af5a0a76a76cfeb6a5901f\com.google.ar.core-optional\AndroidManifest.xml:3:3-5:17
 	android:extractNativeLibs
-		ADDED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:40:9-41
+		ADDED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:40:9-41
 	android:label
-		ADDED from D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:16-48
+		ADDED from D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:16-48
 	android:icon
-		ADDED from D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:49-80
+		ADDED from D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:49-80
 	android:theme
-		ADDED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:43:9-50
+		ADDED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:43:9-50
 meta-data#unity.builder
-ADDED from D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:5:5-79
+ADDED from D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:5:5-79
 	android:value
-		ADDED from D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:5:45-76
+		ADDED from D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:5:45-76
 	android:name
-		ADDED from D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:5:16-44
+		ADDED from D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:5:16-44
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:7:3-77
-MERGED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:27:5-79
-MERGED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:27:5-79
+ADDED from D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:7:3-77
+MERGED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:27:5-79
+MERGED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:27:5-79
 	android:name
-		ADDED from D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:7:20-74
+		ADDED from D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:7:20-74
 uses-permission#android.permission.INTERNET
-ADDED from D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:8:3-65
-MERGED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:25:5-67
-MERGED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:25:5-67
+ADDED from D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:8:3-65
+MERGED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:25:5-67
+MERGED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:25:5-67
 MERGED from [:arenginesdk-3.7.0.3:] C:\Users\10718\.gradle\caches\transforms-2\files-2.1\d1b4f8c6409e77998f5f5d43f4297030\arenginesdk-3.7.0.3\AndroidManifest.xml:12:5-67
 MERGED from [:arenginesdk-3.7.0.3:] C:\Users\10718\.gradle\caches\transforms-2\files-2.1\d1b4f8c6409e77998f5f5d43f4297030\arenginesdk-3.7.0.3\AndroidManifest.xml:12:5-67
 MERGED from [:permission.INTERNET:] C:\Users\10718\.gradle\caches\transforms-2\files-2.1\c389aeb391ada4d5f126895b97ce40ff\permission.INTERNET\AndroidManifest.xml:3:3-65
 MERGED from [:permission.INTERNET:] C:\Users\10718\.gradle\caches\transforms-2\files-2.1\c389aeb391ada4d5f126895b97ce40ff\permission.INTERNET\AndroidManifest.xml:3:3-65
 	android:name
-		ADDED from D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:8:20-62
+		ADDED from D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:8:20-62
 uses-sdk
-INJECTED from D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
-INJECTED from D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
-MERGED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:9:5-12:57
-MERGED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:9:5-12:57
+INJECTED from D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+INJECTED from D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+MERGED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:9:5-12:57
+MERGED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:9:5-12:57
 MERGED from [:nrunityandroidpermission:] C:\Users\10718\.gradle\caches\transforms-2\files-2.1\b0a94ddee91b40dbe508e517c9f9563d\nrunityandroidpermission\AndroidManifest.xml:8:5-10:41
 MERGED from [:nrunityandroidpermission:] C:\Users\10718\.gradle\caches\transforms-2\files-2.1\b0a94ddee91b40dbe508e517c9f9563d\nrunityandroidpermission\AndroidManifest.xml:8:5-10:41
 MERGED from [:nr_api:] C:\Users\10718\.gradle\caches\transforms-2\files-2.1\7a03d18d492302f080765b736ce96c0b\nr_api\AndroidManifest.xml:7:5-9:41
@@ -114,120 +114,120 @@ MERGED from [:AREngineInterop:] C:\Users\10718\.gradle\caches\transforms-2\files
 MERGED from [:AREngineInterop:] C:\Users\10718\.gradle\caches\transforms-2\files-2.1\d124a45bea94c3558cf163422d99eb57\AREngineInterop\AndroidManifest.xml:5:5-7:41
 MERGED from [:unityandroidpermissions:] C:\Users\10718\.gradle\caches\transforms-2\files-2.1\99cd4938695955e76a15f63d7f33b533\unityandroidpermissions\AndroidManifest.xml:11:5-13:41
 MERGED from [:unityandroidpermissions:] C:\Users\10718\.gradle\caches\transforms-2\files-2.1\99cd4938695955e76a15f63d7f33b533\unityandroidpermissions\AndroidManifest.xml:11:5-13:41
-INJECTED from D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
-INJECTED from D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+INJECTED from D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+INJECTED from D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:12:9-54
+		ADDED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:12:9-54
 	android:targetSdkVersion
-		INJECTED from D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
-		ADDED from D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
-		INJECTED from D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+		INJECTED from D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+		ADDED from D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+		INJECTED from D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
-		ADDED from D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
-		INJECTED from D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+		INJECTED from D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+		ADDED from D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+		INJECTED from D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
 uses-permission#android.permission.BLUETOOTH
-ADDED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:21:5-68
+ADDED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:21:5-68
 	android:name
-		ADDED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:21:22-65
+		ADDED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:21:22-65
 uses-feature#0x00030000
-ADDED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:23:5-54
+ADDED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:23:5-54
 	android:glEsVersion
-		ADDED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:23:19-51
+		ADDED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:23:19-51
 uses-permission#android.permission.VIBRATE
-ADDED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:26:5-66
+ADDED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:26:5-66
 	android:name
-		ADDED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:26:22-63
+		ADDED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:26:22-63
 uses-feature#android.hardware.touchscreen
-ADDED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:29:5-31:36
+ADDED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:29:5-31:36
 	android:required
-		ADDED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:31:9-33
+		ADDED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:31:9-33
 	android:name
-		ADDED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:30:9-52
+		ADDED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:30:9-52
 uses-feature#android.hardware.touchscreen.multitouch
-ADDED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:32:5-34:36
+ADDED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:32:5-34:36
 	android:required
-		ADDED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:34:9-33
+		ADDED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:34:9-33
 	android:name
-		ADDED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:33:9-63
+		ADDED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:33:9-63
 uses-feature#android.hardware.touchscreen.multitouch.distinct
-ADDED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:35:5-37:36
+ADDED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:35:5-37:36
 	android:required
-		ADDED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:37:9-33
+		ADDED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:37:9-33
 	android:name
-		ADDED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:36:9-72
+		ADDED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:36:9-72
 activity#com.unity3d.player.UnityPlayerActivity
-ADDED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:44:9-60:20
+ADDED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:44:9-60:20
 	android:screenOrientation
-		ADDED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:50:13-49
+		ADDED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:50:13-49
 	android:launchMode
-		ADDED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:48:13-44
+		ADDED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:48:13-44
 	android:hardwareAccelerated
-		ADDED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:47:13-48
+		ADDED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:47:13-48
 	android:resizeableActivity
-		ADDED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:49:13-47
+		ADDED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:49:13-47
 	android:configChanges
-		ADDED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:46:13-194
+		ADDED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:46:13-194
 	android:name
-		ADDED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:45:13-66
+		ADDED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:45:13-66
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:51:13-55:29
+ADDED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:51:13-55:29
 action#android.intent.action.MAIN
-ADDED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:52:17-69
+ADDED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:52:17-69
 	android:name
-		ADDED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:52:25-66
+		ADDED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:52:25-66
 category#android.intent.category.LAUNCHER
-ADDED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:54:17-77
+ADDED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:54:17-77
 	android:name
-		ADDED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:54:27-74
+		ADDED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:54:27-74
 meta-data#android.notch_support
-ADDED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:57:13-59:40
+ADDED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:57:13-59:40
 	android:value
-		ADDED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:59:17-37
+		ADDED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:59:17-37
 	android:name
-		ADDED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:58:17-53
+		ADDED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:58:17-53
 meta-data#nreal_sdk
-ADDED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:62:9-64:36
+ADDED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:62:9-64:36
 	android:value
-		ADDED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:64:13-33
+		ADDED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:64:13-33
 	android:name
-		ADDED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:63:13-37
+		ADDED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:63:13-37
 meta-data#com.nreal.supportDevices
-ADDED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:65:9-67:51
+ADDED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:65:9-67:51
 	android:value
-		ADDED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:67:13-48
+		ADDED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:67:13-48
 	android:name
-		ADDED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:66:13-52
+		ADDED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:66:13-52
 meta-data#unity.splash-mode
-ADDED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:68:9-70:33
+ADDED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:68:9-70:33
 	android:value
-		ADDED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:70:13-30
+		ADDED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:70:13-30
 	android:name
-		ADDED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:69:13-45
+		ADDED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:69:13-45
 meta-data#unity.splash-enable
-ADDED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:71:9-73:36
+ADDED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:71:9-73:36
 	android:value
-		ADDED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:73:13-33
+		ADDED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:73:13-33
 	android:name
-		ADDED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:72:13-47
+		ADDED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:72:13-47
 meta-data#unity.launch-fullscreen
-ADDED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:74:9-76:36
+ADDED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:74:9-76:36
 	android:value
-		ADDED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:76:13-33
+		ADDED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:76:13-33
 	android:name
-		ADDED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:75:13-51
+		ADDED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:75:13-51
 meta-data#unity.allow-resizable-window
-ADDED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:77:9-79:37
+ADDED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:77:9-79:37
 	android:value
-		ADDED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:79:13-34
+		ADDED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:79:13-34
 	android:name
-		ADDED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:78:13-56
+		ADDED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:78:13-56
 meta-data#notch.config
-ADDED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:80:9-82:50
+ADDED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:80:9-82:50
 	android:value
-		ADDED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:82:13-47
+		ADDED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:82:13-47
 	android:name
-		ADDED from [:unityLibrary] D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:81:13-40
+		ADDED from [:unityLibrary] D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:81:13-40
 uses-permission#android.permission.FOREGROUND_SERVICE
 ADDED from [:nrunityandroidpermission:] C:\Users\10718\.gradle\caches\transforms-2\files-2.1\b0a94ddee91b40dbe508e517c9f9563d\nrunityandroidpermission\AndroidManifest.xml:12:5-77
 	android:name
@@ -247,11 +247,11 @@ ADDED from [:permission.RECORD_AUDIO:] C:\Users\10718\.gradle\caches\transforms-
 	android:name
 		ADDED from [:permission.RECORD_AUDIO:] C:\Users\10718\.gradle\caches\transforms-2\files-2.1\10d120d9135eb9a9de9f6dec82e45707\permission.RECORD_AUDIO\AndroidManifest.xml:3:20-66
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-9:12 reason: com.easyar.sense.unityplugin has a targetSdkVersion < 4
+IMPLIED from D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-9:12 reason: com.easyar.sense.unityplugin has a targetSdkVersion < 4
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-9:12 reason: com.easyar.sense.unityplugin has a targetSdkVersion < 4
+IMPLIED from D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-9:12 reason: com.easyar.sense.unityplugin has a targetSdkVersion < 4
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from D:\Study\Code\unity\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-9:12 reason: com.easyar.sense.unityplugin requested WRITE_EXTERNAL_STORAGE
+IMPLIED from D:\Study\Postgraduate\Github\ARMuseumDemo\ARdemo\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-9:12 reason: com.easyar.sense.unityplugin requested WRITE_EXTERNAL_STORAGE
 queries
 ADDED from [:nr_api:] C:\Users\10718\.gradle\caches\transforms-2\files-2.1\7a03d18d492302f080765b736ce96c0b\nr_api\AndroidManifest.xml:11:5-15:15
 MERGED from [:arenginesdk-3.7.0.3:] C:\Users\10718\.gradle\caches\transforms-2\files-2.1\d1b4f8c6409e77998f5f5d43f4297030\arenginesdk-3.7.0.3\AndroidManifest.xml:14:5-16:15

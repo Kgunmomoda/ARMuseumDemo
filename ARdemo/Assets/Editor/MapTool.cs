@@ -15,7 +15,7 @@ public class MapTool
 
         var list = LoadKeyPoins(pathKeyPoints);
         foreach (var item in list)
-        {            
+        {
             KeyPoint keyPoint = JsonUtility.FromJson<KeyPoint>(item);
             GameObject go = PrefabUtility.InstantiatePrefab(Resources.Load("ArrivalBall"), parents.transform) as GameObject;
             if (go == null)
@@ -37,22 +37,26 @@ public class MapTool
         string pathRoads = Application.persistentDataPath + "/roads.txt";
         GameObject parents = GameObject.Find("/NavRoot/Roads");
 
+        var temp = new GameObject().transform;
+        temp.parent = parents.transform;
         var list = LoadRoads(pathRoads);
         foreach (var item in list)
         {
             Road road = JsonUtility.FromJson<Road>(item);
-            GameObject go = PrefabUtility.InstantiatePrefab(Resources.Load("Road"), parents.transform) as GameObject;
-            if (go == null)
+            GameObject tfRoad = PrefabUtility.InstantiatePrefab(Resources.Load("Road"), parents.transform) as GameObject;
+            if (tfRoad == null)
             {
                 Debug.LogErrorFormat("no GameObject");
                 return;
             }
-            go.name = road.startName+"_"+road.arrivalName;
-            //go.transform.position = keyPoint.position;
-            //go.transform.rotation = keyPoint.rotation;
+            tfRoad.name = road.startName + "_" + road.arrivalName;
+            tfRoad.transform.localPosition = (road.startPosition + road.arrivalPosition) / 2;
+            temp.localPosition = road.arrivalPosition;
+            tfRoad.transform.LookAt(temp);
+            tfRoad.transform.localScale = new Vector3(0.04f, 1f, (road.arrivalPosition - road.startPosition).magnitude * 0.1f + 0.2f);
         }
-
-        Debug.Log("关键点加载成功");
+        GameObject.DestroyImmediate(temp.gameObject);
+        Debug.Log("路径加载成功");
     }
 
     private static List<string> LoadKeyPoins(string pathKeyPoints)

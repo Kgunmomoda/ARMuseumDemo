@@ -917,22 +917,6 @@
       <Project>{DF8784AA-7CC9-EAA7-F65D-04D604D5F2FA}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
-    <ProjectReference Include="EasyAR.Sense.Sample.SpatialMap_Dense_BallGame.csproj">
-      <Project>{81C30073-8926-D3C1-DCB2-2E6AB0853359}</Project>
-      <Name>EasyAR.Sense.Sample.SpatialMap_Dense_BallGame</Name>
-    </ProjectReference>
-    <ProjectReference Include="EasyAR.Sense.Sample.SurfaceTracking.csproj">
-      <Project>{9524CB66-C8E0-3477-1D18-89F5507ABE28}</Project>
-      <Name>EasyAR.Sense.Sample.SurfaceTracking</Name>
-    </ProjectReference>
-    <ProjectReference Include="EasyAR.Sense.Sample.SpatialMap_Sparse_Localizing.csproj">
-      <Project>{36B16CA8-7E0C-BEC5-64B4-498545FD70D5}</Project>
-      <Name>EasyAR.Sense.Sample.SpatialMap_Sparse_Localizing</Name>
-    </ProjectReference>
-    <ProjectReference Include="EasyAR.Sense.Sample.SpatialMap_Sparse_Dense_Building.csproj">
-      <Project>{EF80165D-6E01-5D0B-20D2-155A521819A1}</Project>
-      <Name>EasyAR.Sense.Sample.SpatialMap_Sparse_Dense_Building</Name>
-    </ProjectReference>
     <ProjectReference Include="NavMeshComponentsEditor.csproj">
       <Project>{6E3C72B0-B7D2-16E1-E84B-BF7EF0DD62E3}</Project>
       <Name>NavMeshComponentsEditor</Name>
@@ -941,45 +925,17 @@
       <Project>{4079DFA2-F639-8199-D74F-4F951972B83F}</Project>
       <Name>NavMeshComponents</Name>
     </ProjectReference>
-    <ProjectReference Include="EasyAR.Sense.Sample.SpatialMap_Sparse_ImageTarget.csproj">
-      <Project>{7E7429E4-D5A5-5EAD-4F80-3D41CB623075}</Project>
-      <Name>EasyAR.Sense.Sample.SpatialMap_Sparse_ImageTarget</Name>
-    </ProjectReference>
-    <ProjectReference Include="EasyAR.Sense.Sample.SpatialMap_Sparse_Building.csproj">
-      <Project>{F36B09F0-4745-9C06-425D-8BDBDB501C18}</Project>
-      <Name>EasyAR.Sense.Sample.SpatialMap_Sparse_Building</Name>
-    </ProjectReference>
-    <ProjectReference Include="EasyAR.Sense.Sample.MotionTracking_ImageTarget.csproj">
-      <Project>{7FF52083-2932-4AD1-9367-47E05F2FF143}</Project>
-      <Name>EasyAR.Sense.Sample.MotionTracking_ImageTarget</Name>
+    <ProjectReference Include="EasyAR.Sense.Ext.Nreal.Sample.ImageTracking_InWorld.csproj">
+      <Project>{2BB59B3C-4ECF-BFFA-21FE-45C92E63DFF4}</Project>
+      <Name>EasyAR.Sense.Ext.Nreal.Sample.ImageTracking_InWorld</Name>
     </ProjectReference>
     <ProjectReference Include="NRSDKEditor.csproj">
       <Project>{26E9D60D-6119-10F7-7B74-70F76D8566A9}</Project>
       <Name>NRSDKEditor</Name>
     </ProjectReference>
-    <ProjectReference Include="EasyAR.Sense.Sample.SpatialMap_SparseSpatialMap.csproj">
-      <Project>{E58FE7CB-46E2-711A-BF8C-A38762FDB197}</Project>
-      <Name>EasyAR.Sense.Sample.SpatialMap_SparseSpatialMap</Name>
-    </ProjectReference>
     <ProjectReference Include="NRSDK.csproj">
       <Project>{26F4E890-61ED-2C52-A5A2-96FF6EADFE08}</Project>
       <Name>NRSDK</Name>
-    </ProjectReference>
-    <ProjectReference Include="EasyAR.Sense.Sample.MotionTracking.csproj">
-      <Project>{E1F78753-D580-4CE8-7027-94F4B9C94903}</Project>
-      <Name>EasyAR.Sense.Sample.MotionTracking</Name>
-    </ProjectReference>
-    <ProjectReference Include="EasyAR.Sense.Sample.SurfaceTracking_ImageTarget.csproj">
-      <Project>{D03311F8-4FC0-A63A-2373-0C6F94EA2EF7}</Project>
-      <Name>EasyAR.Sense.Sample.SurfaceTracking_ImageTarget</Name>
-    </ProjectReference>
-    <ProjectReference Include="EasyAR.Sense.Sample.MotionTracking_Fusion.csproj">
-      <Project>{DD3D30B9-7114-2F90-83C9-74406EBC0E9E}</Project>
-      <Name>EasyAR.Sense.Sample.MotionTracking_Fusion</Name>
-    </ProjectReference>
-    <ProjectReference Include="EasyAR.Sense.Ext.Nreal.Sample.SpatialMap_Building.csproj">
-      <Project>{339DF04A-02D4-3E42-B15F-8413A22428B4}</Project>
-      <Name>EasyAR.Sense.Ext.Nreal.Sample.SpatialMap_Building</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

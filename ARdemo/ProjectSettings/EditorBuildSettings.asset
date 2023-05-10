@@ -6,23 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/demo.unity
-    guid: 93f800ef67a4ddf4a938d7729e35d37c
-  - enabled: 1
-    path: Assets/Scenes/BuildMap.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
-    path: Assets/Scenes/KeyPoint.unity
-    guid: 345b21392e539ae488871f5f3b8b4c23
-  - enabled: 1
-    path: Assets/Scenes/Road.unity
-    guid: 667d3889d9935fc4d94dc33d365c2733
+    path: Assets/Scenes/LabDemo.unity
+    guid: d0102bb056d22a54aa0e8e5ed713ebb2
   - enabled: 0
-    path: Assets/Scenes/Navigation.unity
-    guid: ac2ead3cbe27bde4dab746ad3d766598
-  - enabled: 1
-    path: Assets/Scenes/TestNav.unity
-    guid: fdcf1453f33641b4a8b3b11cec6c8dc4
+    path: Assets/Samples/EasyAR Sense Unity Plugin Nreal Extension/4.6.2+3022.b15d4240/Nreal
+      ImageTracking_InWorld/Scenes/Nreal_ImageTracking_InWorld.unity
+    guid: 02e058aadc6cffb47a6a16c19bbf9d65
   m_configObjects:
     EasyAR.Settings: {fileID: 11400000, guid: 2f1cd3ffbaa110a49a8ec309c52da923, type: 2}
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: f570e47a2eb57d74fab2ccbe536f797f, type: 2}

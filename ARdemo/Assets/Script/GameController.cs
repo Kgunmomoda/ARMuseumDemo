@@ -1,10 +1,13 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.IO;
 using UnityEngine;
+using System;
 using UnityEngine.UI;
+using System.IO;
 
+/// <summary>
+/// ”Œœ∑øÿ÷∆
+/// </summary>
 public class GameController : MonoBehaviour
 {
     private static GameController instance = null;
@@ -152,6 +155,8 @@ public class GameController : MonoBehaviour
         }
         return list;
     }
+
     #endregion
 }
+
 

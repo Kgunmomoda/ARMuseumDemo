@@ -1,4 +1,4 @@
-#Sun Apr 16 11:49:32 CST 2023
-base.0=D\:\\Study\\Code\\unity\\ARdemo\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+#Mon Apr 17 16:20:21 CST 2023
+base.0=D\:\\Study\\Postgraduate\\Github\\ARMuseumDemo\\ARdemo\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

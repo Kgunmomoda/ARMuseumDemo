@@ -23,7 +23,6 @@ android.permission.INTERNET was added because:
 		Unity.Services.Core.Networking-FeaturesChecked.txt
 		Unity.Services.Core.Telemetry-FeaturesChecked.txt
 		Unity.XR.ARCore-FeaturesChecked.txt
-	Analytics
 	Performance Reporting
 android.permission.VIBRATE was added because:
 	UnityEngine.Handheld::Vibrate was present in:
@@ -34,42 +33,9 @@ android.permission.ACCESS_NETWORK_STATE was added because:
 android.hardware.touchscreen.multitouch, android.hardware.touchscreen.multitouch.distinct were enabled because:
 	UnityEngine.Input::get_touches was present in:
 		Assembly-CSharp-FeaturesChecked.txt
-		EasyAR.Sense.Sample.MotionTracking-FeaturesChecked.txt
-		EasyAR.Sense.Sample.MotionTracking_Fusion-FeaturesChecked.txt
-		EasyAR.Sense.Sample.MotionTracking_ImageTarget-FeaturesChecked.txt
-		EasyAR.Sense.Sample.SpatialMap_Dense_BallGame-FeaturesChecked.txt
-		EasyAR.Sense.Sample.SpatialMap_SparseSpatialMap-FeaturesChecked.txt
-		EasyAR.Sense.Sample.SpatialMap_Sparse_Building-FeaturesChecked.txt
-		EasyAR.Sense.Sample.SpatialMap_Sparse_Dense_Building-FeaturesChecked.txt
-		EasyAR.Sense.Sample.SpatialMap_Sparse_ImageTarget-FeaturesChecked.txt
-		EasyAR.Sense.Sample.SpatialMap_Sparse_Localizing-FeaturesChecked.txt
-		EasyAR.Sense.Sample.SurfaceTracking-FeaturesChecked.txt
-		EasyAR.Sense.Sample.SurfaceTracking_ImageTarget-FeaturesChecked.txt
 	UnityEngine.Input::GetTouch was present in:
 		Assembly-CSharp-FeaturesChecked.txt
-		EasyAR.Sense.Sample.MotionTracking-FeaturesChecked.txt
-		EasyAR.Sense.Sample.MotionTracking_Fusion-FeaturesChecked.txt
-		EasyAR.Sense.Sample.MotionTracking_ImageTarget-FeaturesChecked.txt
-		EasyAR.Sense.Sample.SpatialMap_Dense_BallGame-FeaturesChecked.txt
-		EasyAR.Sense.Sample.SpatialMap_SparseSpatialMap-FeaturesChecked.txt
-		EasyAR.Sense.Sample.SpatialMap_Sparse_Building-FeaturesChecked.txt
-		EasyAR.Sense.Sample.SpatialMap_Sparse_Dense_Building-FeaturesChecked.txt
-		EasyAR.Sense.Sample.SpatialMap_Sparse_ImageTarget-FeaturesChecked.txt
-		EasyAR.Sense.Sample.SpatialMap_Sparse_Localizing-FeaturesChecked.txt
-		EasyAR.Sense.Sample.SurfaceTracking-FeaturesChecked.txt
-		EasyAR.Sense.Sample.SurfaceTracking_ImageTarget-FeaturesChecked.txt
 		UnityEngine.UI-FeaturesChecked.txt
 	UnityEngine.Input::get_touchCount was present in:
 		Assembly-CSharp-FeaturesChecked.txt
-		EasyAR.Sense.Sample.MotionTracking-FeaturesChecked.txt
-		EasyAR.Sense.Sample.MotionTracking_Fusion-FeaturesChecked.txt
-		EasyAR.Sense.Sample.MotionTracking_ImageTarget-FeaturesChecked.txt
-		EasyAR.Sense.Sample.SpatialMap_Dense_BallGame-FeaturesChecked.txt
-		EasyAR.Sense.Sample.SpatialMap_SparseSpatialMap-FeaturesChecked.txt
-		EasyAR.Sense.Sample.SpatialMap_Sparse_Building-FeaturesChecked.txt
-		EasyAR.Sense.Sample.SpatialMap_Sparse_Dense_Building-FeaturesChecked.txt
-		EasyAR.Sense.Sample.SpatialMap_Sparse_ImageTarget-FeaturesChecked.txt
-		EasyAR.Sense.Sample.SpatialMap_Sparse_Localizing-FeaturesChecked.txt
-		EasyAR.Sense.Sample.SurfaceTracking-FeaturesChecked.txt
-		EasyAR.Sense.Sample.SurfaceTracking_ImageTarget-FeaturesChecked.txt
 		UnityEngine.UI-FeaturesChecked.txt

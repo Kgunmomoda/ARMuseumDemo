@@ -1,44 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Study\\Code\\unity\\ARdemo\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values\\values.xml",
+            "outputFile": "D:\\Study\\Postgraduate\\Github\\ARMuseumDemo\\ARdemo\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values\\values.xml",
             "map": [
-                {
-                    "source": "D:\\Study\\Code\\unity\\ARdemo\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "5,2,7",
-                        "startColumns": "0,0,0",
-                        "startOffsets": "190,53,288",
-                        "endLines": "6,4,10",
-                        "endColumns": "8,8,8",
-                        "endOffsets": "286,188,513"
-                    },
-                    "to": {
-                        "startLines": "15,17,20",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "914,1014,1152",
-                        "endLines": "16,19,23",
-                        "endColumns": "8,8,8",
-                        "endOffsets": "1009,1147,1374"
-                    }
-                },
-                {
-                    "source": "D:\\Study\\Code\\unity\\ARdemo\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "2,2",
-                        "startOffsets": "55,98",
-                        "endColumns": "41,65",
-                        "endOffsets": "94,161"
-                    },
-                    "to": {
-                        "startLines": "13,14",
-                        "startColumns": "4,4",
-                        "startOffsets": "802,846",
-                        "endColumns": "43,67",
-                        "endOffsets": "841,909"
-                    }
-                },
                 {
                     "source": "C:\\Users\\10718\\.gradle\\caches\\transforms-2\\files-2.1\\0ebc27a7c41ff3b3ad98498cf40e4d11\\com.google.ar.core-1.23.0\\res\\values\\values.xml",
                     "from": {
@@ -57,13 +21,22 @@
                     }
                 },
                 {
-                    "source": "D:\\Study\\Code\\unity\\ARdemo\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\build\\intermediates\\packaged_res\\release\\values\\values.xml",
+                    "source": "D:\\Study\\Postgraduate\\Github\\ARMuseumDemo\\ARdemo\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\values\\styles.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "55,101,158,214,263,309",
-                        "endColumns": "45,56,55,48,45,46",
-                        "endOffsets": "96,153,209,258,304,351"
+                        "startLines": "5,2,7",
+                        "startColumns": "0,0,0",
+                        "startOffsets": "190,53,288",
+                        "endLines": "6,4,10",
+                        "endColumns": "8,8,8",
+                        "endOffsets": "286,188,513"
+                    },
+                    "to": {
+                        "startLines": "15,17,20",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "914,1014,1152",
+                        "endLines": "16,19,23",
+                        "endColumns": "8,8,8",
+                        "endOffsets": "1009,1147,1374"
                     }
                 },
                 {
@@ -83,6 +56,33 @@
                         "endLines": "30",
                         "endColumns": "12",
                         "endOffsets": "1778"
+                    }
+                },
+                {
+                    "source": "D:\\Study\\Postgraduate\\Github\\ARMuseumDemo\\ARdemo\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "2,2",
+                        "startOffsets": "55,98",
+                        "endColumns": "41,65",
+                        "endOffsets": "94,161"
+                    },
+                    "to": {
+                        "startLines": "13,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "802,846",
+                        "endColumns": "43,67",
+                        "endOffsets": "841,909"
+                    }
+                },
+                {
+                    "source": "D:\\Study\\Postgraduate\\Github\\ARMuseumDemo\\ARdemo\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\build\\intermediates\\packaged_res\\release\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,101,158,214,263,309",
+                        "endColumns": "45,56,55,48,45,46",
+                        "endOffsets": "96,153,209,258,304,351"
                     }
                 }
             ]

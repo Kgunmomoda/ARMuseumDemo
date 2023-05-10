@@ -7,7 +7,7 @@ public class Move : MonoBehaviour
 {
     private bool isNextMove = false;
     private Vector3 point;
-    public NavMeshAgent agent;
+    //public NavMeshAgent agent;
    
     private void Update()
     {     
@@ -28,17 +28,17 @@ public class Move : MonoBehaviour
         if (isNextMove == true)
         //当isNextMove为真，则不停调用Move
         {
-            agent.SetDestination(point);
+            MoveToPoint(point);
         }
     }
 
-    //private void MoveToPoint(Vector3 pos)
-    //{
-    //    //使用Vector3的插值函数来移动位置
-    //    transform.position = Vector3.MoveTowards(transform.position, pos, Time.deltaTime * 4.0f);
+    private void MoveToPoint(Vector3 pos)
+    {
+        //使用Vector3的插值函数来移动位置
+        transform.position = Vector3.MoveTowards(transform.position, pos, Time.deltaTime * 4.0f);
 
-    //     //当目标抵达位置的时候，将isNextMove置为false，等待下一次移动指令
-    //    if (transform.position == pos)
-    //        isNextMove = false;
-    //} 
+         //当目标抵达位置的时候，将isNextMove置为false，等待下一次移动指令
+        if (transform.position == pos)
+            isNextMove = false;
+    } 
 }

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Study\\Code\\unity\\ARdemo\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-b+es+419\\values-b+es+419.xml",
+            "outputFile": "D:\\Study\\Postgraduate\\Github\\ARMuseumDemo\\ARdemo\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-b+es+419\\values-b+es+419.xml",
             "map": [
                 {
                     "source": "C:\\Users\\10718\\.gradle\\caches\\transforms-2\\files-2.1\\0ebc27a7c41ff3b3ad98498cf40e4d11\\com.google.ar.core-1.23.0\\res\\values-b+es+419\\values.xml",
