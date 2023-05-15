@@ -28,7 +28,7 @@ namespace NRKernal.NRExamples
 
         private void Awake()
         {
-            SetScreen();
+           // SetScreen();
         }
 
         public void SetScreen()
@@ -46,6 +46,19 @@ namespace NRKernal.NRExamples
                 leftRightScreen.SetActive(true);
                 m_Screen = new LeftRightScreen();
                 m_Screen.SetScreen(leftRightScreen);
+            }
+        }
+        public void StopScreen()
+        {
+            if (screenType == ScreenType.Normal)
+            {
+                normalScreen.SetActive(false);
+                leftRightScreen.SetActive(false);
+            }
+            else
+            {
+                normalScreen.SetActive(false);
+                leftRightScreen.SetActive(false);
             }
         }
 

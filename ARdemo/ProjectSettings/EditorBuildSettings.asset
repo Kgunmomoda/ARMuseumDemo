@@ -8,13 +8,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LabDemo.unity
     guid: d0102bb056d22a54aa0e8e5ed713ebb2
-  - enabled: 0
-    path: Assets/Samples/EasyAR Sense Unity Plugin Nreal Extension/4.6.2+3022.b15d4240/Nreal
-      ImageTracking_InWorld/Scenes/Nreal_ImageTracking_InWorld.unity
-    guid: 02e058aadc6cffb47a6a16c19bbf9d65
   m_configObjects:
+    EasyAR.Mega.Studio.Settings: {fileID: 11400000, guid: 17be176514479d84b86a5ba0545ea0c4, type: 2}
     EasyAR.Settings: {fileID: 11400000, guid: 2f1cd3ffbaa110a49a8ec309c52da923, type: 2}
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: f570e47a2eb57d74fab2ccbe536f797f, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 8b8236ea9439ed649a61e211a8e0d1ba, type: 2}
     com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: 073e42d9f869cda4db5a108cf62d20ba, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: b7e72f7f26d47554b9e9b4f4b89a7c13, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 61e1465bb45dc45478921800a67e6161, type: 2}

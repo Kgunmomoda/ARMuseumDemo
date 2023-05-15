@@ -7,243 +7,46 @@ using UnityEngine.UI;
 
 public class test : MonoBehaviour
 {
-    private GameController gameController;
-    public ARSession session;
-    public SparseSpatialMapWorkerFrameFilter mapWorker;
-    public SparseSpatialMapController map;
-    public Transform navRoot;
-    public Transform prefabRoad;
-    /// <summary>
-    /// 目的地预制件
-    /// </summary>
-    public Transform prefabArrival;
-    /// <summary>
-    /// 导航按钮
-    /// </summary>
-    public SelectButton prefabButton;
-    /// <summary>
-    /// 导航按钮容器
-    /// </summary>
-    public Transform svContent;
-    /// <summary>
-    /// 导航目标
-    /// </summary>
-    private Transform arrival;
-    /// <summary>
-    /// 导航线
-    /// </summary>
-    public LineRenderer lineRenderer;
-    /// <summary>
-    /// 导航代理
-    /// </summary>
-    public NavMeshAgent agent;
-    /// <summary>
-    /// 导航路径
-    /// </summary>
-    private NavMeshPath path;
-    public NavMeshSurface surface;
-    /// <summary>
-    /// 玩家
-    /// </summary>
-    public Transform player;
-    /// <summary>
-    /// 导航画布
-    /// </summary>
-    public GameObject panel;
-    /// <summary>
-    /// 导航按钮
-    /// </summary>
-    public Button btnNav;
+    public float width = 1.0f;
+    public bool useCurve = true;
+    private LineRenderer lr;
 
     void Start()
     {
-        gameController = FindObjectOfType<GameController>();
-        btnNav.interactable = false;
-        CloseNavUI();
-        LoadMap();
+        lr = GetComponent<LineRenderer>();
+        lr.material = new Material(Shader.Find("Sprites/Default"));
+
+        // Set some positions
+        Vector3[] positions = new Vector3[3];
+        positions[0] = new Vector3(-2.0f, -2.0f, 0.0f);
+        positions[1] = new Vector3(0.0f, 2.0f, 0.0f);
+        positions[2] = new Vector3(2.0f, -2.0f, 0.0f);
+        lr.positionCount = positions.Length;
+        lr.SetPositions(positions);
     }
 
-    /// <summary>
-    /// 加载地图
-    /// </summary>
-    private void LoadMap()
+    void Update()
     {
-        //设置地图
-        map.MapManagerSource.ID = PlayerPrefs.GetString("MapID");
-        map.MapManagerSource.Name = PlayerPrefs.GetString("MapName");
-        //地图加载反馈
-        map.MapLoad += (map, status, error) =>
+        AnimationCurve curve = new AnimationCurve();
+        if (useCurve)
         {
-            if (status)
-            {
-                gameController.SendMessage("ShowMessage", "地图加载成功。" + map.ID);
-            }
-            else
-            {
-                gameController.SendMessage("ShowMessage", "地图加载失败。" + error);
-            }
-        };
-        //地图定位反馈
-        map.MapLocalized += () =>
-        {
-            gameController.SendMessage("ShowMessage", "进入稀疏空间定位。");
-            ClearNav();
-            LoadArrivals();
-            LoadRoads();
-            //BakePath();
-            btnNav.interactable = true;
-            ShowNavUI();
-        };
-        //停止定位反馈
-        map.MapStopLocalize += () =>
-        {
-            gameController.SendMessage("ShowMessage", "停止稀疏空间定位");
-        };
-        gameController.SendMessage("ShowMessage", "开始加载地图。" + map.MapManagerSource.ID);
-        mapWorker.Localizer.startLocalization();    //本地化地图
-    }
-
-    /// <summary>
-    /// 加载路径
-    /// </summary>
-    private void LoadRoads()
-    {
-        gameController.SendMessage("ShowMessage", "LoadRoads");
-        var list = gameController.LoadRoads();
-
-        var temp = new GameObject().transform;
-        temp.parent = navRoot.Find("Roads");
-
-        foreach (var item in list)
-        {
-            var road = JsonUtility.FromJson<Road>(item);
-            var tfRoad = Instantiate(prefabRoad, navRoot.Find("Roads"));
-
-            tfRoad.localPosition = (road.startPosition + road.arrivalPosition) / 2;
-            temp.localPosition = road.arrivalPosition;
-            tfRoad.LookAt(temp);
-            //为什么是0.1？
-            //与tfRoad预制体的scale。z=0.1有关
-            //z=0.1的时候，tfRoad预制体的长度刚好是1米
-            tfRoad.localScale = new Vector3(0.02f, 1f, (road.arrivalPosition - road.startPosition).magnitude * 0.1f);
+            curve.AddKey(0.0f, 0.0f);
+            curve.AddKey(1.0f, 1.0f);
         }
-        Destroy(temp.gameObject);
-    }
-    /// <summary>
-    /// 加载目标
-    /// </summary>
-    private void LoadArrivals()
-    {
-        gameController.SendMessage("ShowMessage", "LoadArrivals");
-        var list = gameController.LoadKeyPoins();
-        foreach (var item in list)
+        else
         {
-            KeyPoint point = JsonUtility.FromJson<KeyPoint>(item);
-            if (point.pointType == 0)
-            {
-                var btn = CreateSelectButton();
-                btn.keyPoint = point;
-                btn.GetComponentInChildren<Text>().text = point.name;
-
-                var arrivalTemp = Instantiate(prefabArrival, navRoot.Find("Arrivals"));
-                arrivalTemp.localPosition = point.position;
-                btn.arrival = arrivalTemp;
-                arrivalTemp.gameObject.SetActive(false);
-            }
+            curve.AddKey(0.0f, 1.0f);
+            curve.AddKey(1.0f, 1.0f);
         }
+
+        lr.widthCurve = curve;
+        lr.widthMultiplier = width;
     }
 
-    /// <summary>
-    /// 清理导航元素
-    /// </summary>
-    private void ClearNav()
+    void OnGUI()
     {
-        gameController.SendMessage("ShowMessage", "ClearNav");
-        //删除按钮
-        foreach (Transform tf in svContent)
-        {
-            Destroy(tf.gameObject);
-        }
-        //删除目的地
-        foreach (Transform tf in navRoot.Find("Arrivals"))
-        {
-            Destroy(tf.gameObject);
-        }
-        //删除路径
-        foreach (Transform tf in navRoot.Find("Roads"))
-        {
-            Destroy(tf.gameObject);
-        }
-    }
-    /// <summary>
-    /// 按钮点击
-    /// </summary>
-    /// <param name="btnTF"></param>
-    private void SelectButtonClicked(Transform btnTF)
-    {
-        CancelInvoke("DisplayPath");
-        arrival = btnTF.GetComponent<SelectButton>().arrival;
-
-        Transform root = navRoot.Find("Arrivals");
-        for (int i = 0; i < root.childCount; i++)
-        {
-            root.GetChild(i).gameObject.SetActive(false);
-        }
-        arrival.gameObject.SetActive(true);
-
-        InvokeRepeating("DisplayPath", 0, 0.5f); //循环调用DisplayPath，每隔0.5秒调用一次
-        CloseNavUI();
-    }
-    /// <summary>
-    /// 显示路径
-    /// </summary>
-    private void DisplayPath()
-    {
-        agent.transform.position = player.position;
-        agent.enabled = true;
-        agent.CalculatePath(arrival.position, path);
-        lineRenderer.positionCount = path.corners.Length;
-        lineRenderer.SetPositions(path.corners);
-        agent.enabled = false;
-    }
-    /// <summary>
-    /// 烘培路径
-    /// </summary>
-    private void BakePath()
-    {
-        agent.transform.position = player.position;
-        agent.enabled = false;
-        surface.BuildNavMesh();
-        path = new NavMeshPath();
-    }
-
-    /// <summary>
-    /// 显示导航菜单
-    /// </summary>
-    public void ShowNavUI()
-    {
-        panel.SetActive(true);
-    }
-    /// <summary>
-    /// 关闭导航菜单
-    /// </summary>
-    public void CloseNavUI()
-    {
-        panel.SetActive(false);
-    }
-
-    public void back()
-    {
-        SceneManager.LoadScene("demo");
-    }
-
-    private SelectButton CreateSelectButton()
-    {
-        SelectButton btn = Instantiate(prefabButton, svContent);
-        btn.GetComponent<Button>().onClick.AddListener(() =>
-        {
-            SelectButtonClicked(btn.transform);
-        });
-        return btn;
+        GUI.Label(new Rect(25, 20, 200, 30), "Width");
+        width = GUI.HorizontalSlider(new Rect(125, 25, 200, 30), width, 0.1f, 1.0f);
+        useCurve = GUI.Toggle(new Rect(25, 65, 200, 30), useCurve, "Use Curve");
     }
 }

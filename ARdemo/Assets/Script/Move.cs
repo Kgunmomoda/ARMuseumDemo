@@ -7,8 +7,18 @@ public class Move : MonoBehaviour
 {
     private bool isNextMove = false;
     private Vector3 point;
-    //public NavMeshAgent agent;
-   
+    public NavMeshAgent agent;
+    private NavMeshPath path;
+    public Transform arrival;
+    public LineRenderer lineRenderer;
+
+    private void Start()
+    {
+        path = new NavMeshPath();
+        InvokeRepeating("DisplayPath", 0, 0.5f);
+        //DisplayPath();
+    }
+
     private void Update()
     {     
         //当鼠标点击时，才触发射线检测
@@ -40,5 +50,17 @@ public class Move : MonoBehaviour
          //当目标抵达位置的时候，将isNextMove置为false，等待下一次移动指令
         if (transform.position == pos)
             isNextMove = false;
-    } 
+    }
+
+    /// <summary>
+    /// 显示路径
+    /// </summary>
+    private void DisplayPath()
+    {
+        //agent.enabled = true;
+        agent.CalculatePath(arrival.position, path);
+        lineRenderer.positionCount = path.corners.Length;
+        lineRenderer.SetPositions(path.corners);
+        //agent.enabled = false;
+    }
 }

@@ -1,18 +1,13 @@
 using easyar;
+using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.UI;
 
 public class Navigation : MonoBehaviour
 {
-    public ARSession session;
-    public SparseSpatialMapWorkerFrameFilter mapWorker;
-    public SparseSpatialMapController map;
-    public Transform navRoot;
-    /// <summary>
-    /// 导航目标
-    /// </summary>
-    public Transform arrival;
+    public ARSession Session;
     /// <summary>
     /// 导航线
     /// </summary>
@@ -33,66 +28,112 @@ public class Navigation : MonoBehaviour
     /// 调试信息
     /// </summary>
     public Text Status;
-    public Transform prefabArrival;
+    /// <summary>
+    /// 导航目的地
+    /// </summary>
+    public Transform arrival;
+    private string deviceModel = string.Empty;
+    private MegaTrackerFrameFilter.LocalizationResponse debugInfo;
+    private static Optional<DateTime> trialCounter;
+    private MegaTrackerFrameFilter megaTracker;
+    private bool inputBlocked;
+
+    private void Awake()
+    {
+        megaTracker = Session.GetComponentInChildren<MegaTrackerFrameFilter>(true);
+        megaTracker.LocalizationUpdate += (response) =>
+        {
+            debugInfo = response;
+           // HandleLocalizationStatusChange(response.Status);
+        };
+
+        Session.StateChanged += (state) =>
+        {
+            if (state == ARSession.SessionState.Ready)
+            {
+                if (trialCounter.OnNone)
+                {
+                    trialCounter = DateTime.Now;
+                }
+            }
+        };
+    }
 
     void Start()
     {
-        LoadMap(); //加载点云地图    
-        path = new NavMeshPath();//初始化导航路径
-        HideElement();
+        agent.transform.position = player.transform.position;
+        path = new NavMeshPath();
+        //初始化导航路径
+        //HideElement();
         InvokeRepeating("DisplayPath", 0, 0.5f);
-        arrival.gameObject.SetActive(true); //显示目标点
+        //arrival.gameObject.SetActive(true); //显示目标点
+        //Transform go = Instantiate(prefab, Blocks);
+        //go.position = arrival.position;
     }
 
     private void Update()
     {
-        Status.text = "玩家位置:" + player.position + ":" + "目标位置:" + arrival.position;
-    }
+        Status.text = $"Device Model: {SystemInfo.deviceModel} {deviceModel}" + Environment.NewLine +
+       "Frame Source: " + ((Session.Assembly != null && Session.Assembly.FrameSource) ? Session.Assembly.FrameSource.GetType().ToString().Replace("easyar.", "").Replace("FrameSource", "") : "-") + Environment.NewLine +
+       "Tracking Status: " + Session.TrackingStatus + Environment.NewLine +
+       "Mega Tracker Parameters:" + Environment.NewLine +
+       $"\tRequest: Timeout ({megaTracker.RequestTimeParameters.Timeout}), RequestInterval ({megaTracker.RequestTimeParameters.RequestInterval})" + Environment.NewLine +
+       $"\tResultPose: Localization ({megaTracker.ResultPoseType.EnableLocalization}), Stabilization ({megaTracker.ResultPoseType.EnableStabilization})" + Environment.NewLine +
+       $"\tAI代理位置:" + agent.transform.position + "目的地位置:" + arrival.transform.position + "玩家位置:" + player.transform.position;
 
-    /// <summary>
-    /// 加载地图
-    /// </summary>
-    private void LoadMap()
-    {
-        //设置地图
-        //map.MapManagerSource.ID = PlayerPrefs.GetString("MapID");
-        //map.MapManagerSource.Name = PlayerPrefs.GetString("MapName");
-        //地图加载反馈
-        map.MapLoad += (map, status, error) =>
+        if (debugInfo != null)
         {
-            if (status)
+            Status.text += "Localization Debug Info: " + Environment.NewLine +
+                $"\tTimestamp: {debugInfo.Timestamp:F3}" + Environment.NewLine +
+                "\tStatus: " + debugInfo.Status + Environment.NewLine +
+                "\tServer Response Duration (s): " + debugInfo.ServerResponseDuration + Environment.NewLine +
+                "\tServer Calculation Duration (s): " + debugInfo.ServerCalculationDuration + Environment.NewLine;
+            foreach (var block in debugInfo.Blocks)
             {
-                Status.text = "地图加载成功。" + map.ID;
+                Status.text += $"\tBlock: {block.Info.Name} ({block.Info.ID})" + Environment.NewLine;
             }
-            else
+            if (debugInfo.ErrorMessage.OnSome)
             {
-                Status.text = "地图加载失败。" + error;
+                Status.text += "\tError Message: " + debugInfo.ErrorMessage + Environment.NewLine;
             }
-        };
-        //地图定位反馈
-        map.MapLocalized += () =>
-        {
-            Status.text = "进入稀疏空间定位。";
-        };
-        //停止定位反馈
-        map.MapStopLocalize += () =>
-        {
-            Status.text = "停止稀疏空间定位";
-        };
-        Status.text = "开始加载地图。";
-        mapWorker.Localizer.startLocalization();    //本地化地图
-    }
-
-    /// <summary>
-    /// 隐藏元素
-    /// </summary>
-    private void HideElement()
-    {
-        //隐藏目的地
-        foreach (Transform tf in navRoot.Find("Arrivals"))
-        {
-            tf.gameObject.SetActive(false);
         }
+
+        if (Session.State > ARSession.SessionState.Ready)
+        {
+            if (Session.Assembly.FrameSource is NrealFrameSource && trialCounter != DateTime.MinValue)
+            {
+                var nrealFrameSource = (NrealFrameSource)Session.Assembly.FrameSource;
+                Status.text += Environment.NewLine +
+                    Environment.NewLine +
+                    $"EasyAR received frame count from Nreal: {nrealFrameSource.ReceivedFrameCount / 100 * 100}+";
+
+                StartCoroutine(CheckData(nrealFrameSource.ReceivedFrameCount, (c) => { inputBlocked = nrealFrameSource.ReceivedFrameCount == c; }));
+                if (inputBlocked)
+                {
+                    Status.text += Environment.NewLine + "!! WARNING: RGB Camera input has been blocked for 1+ seconds, please check your device !!";
+                }
+            }
+        }
+
+        // avoid misunderstanding when using personal edition, not necessary in your own projects
+        if (!string.IsNullOrEmpty(Engine.errorMessage()))
+        {
+            trialCounter = DateTime.MinValue;
+        }
+        if (trialCounter.OnSome)
+        {
+            if (Session.State >= ARSession.SessionState.Ready && (FrameSource.IsCustomCamera(Session.Assembly.FrameSource) || trialCounter.Value == DateTime.MinValue))
+            {
+                var time = Math.Max(0, (int)(trialCounter.Value - DateTime.Now).TotalSeconds + 100);
+                Status.text += $"\n\nEasyAR License for {Session.Assembly.FrameSource.GetType()} will timeout for current process within {time} seconds. (Personal Edition Only)";
+            }
+        }
+    }
+
+    private IEnumerator CheckData(int count, Action<int> callback)
+    {
+        yield return new WaitForSeconds(1);
+        callback(count);
     }
 
     /// <summary>
@@ -100,12 +141,23 @@ public class Navigation : MonoBehaviour
     /// </summary>
     private void DisplayPath()
     {
-        agent.transform.position = player.position;
-        agent.enabled = true;
+        agent.transform.position = player.transform.position;
+        //agent.enabled = true;
         agent.CalculatePath(arrival.position, path);
         lineRenderer.positionCount = path.corners.Length;
         lineRenderer.SetPositions(path.corners);
-        agent.enabled = false;
+        //agent.enabled = false;
     }
-    
+
+    public void EndGame()
+    {
+        agent.enabled = false;
+        CancelInvoke("DisplayPath");
+    }
+
+    public void switchArrival(Transform arrival)
+    {
+        this.arrival = arrival;
+        Debug.Log("目的地位置改变:" + arrival.transform.position);
+    }
 }
