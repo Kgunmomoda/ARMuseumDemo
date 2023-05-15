@@ -1,0 +1,22 @@
+{
+	"name": "EasyAR.Mega.Sample.MegaTracking_Basic",
+	"references": [
+		"EasyAR.Sense",
+		"EasyAR.Mega.Scene"
+	],
+	"includePlatforms": [],
+	"excludePlatforms": [],
+	"allowUnsafeCode": false,
+	"overrideReferences": false,
+	"precompiledReferences": [],
+	"autoReferenced": true,
+	"defineConstraints": [],
+	"versionDefines": [
+		{
+			"name": "com.easyar.sense",
+			"expression": "",
+			"define": "EASYAR_ENABLE_SENSE"
+		}
+	],
+	"noEngineReferences": false
+}
